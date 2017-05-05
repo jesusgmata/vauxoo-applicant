@@ -3,14 +3,19 @@ Your module documentation here
 """
 
 
-class PrimeClass(object):
-    """
-    Your class documentation here
-    """
+class prime_class:
+    
+    def is_prime(data):
+    
+      d = int(data) % 2
+        return d
+    
 
-    def is_prime(self, num_int):
-        """
-        Your method documentation here
-        """
-        # your primes code here
-        return "not implement yet"  # Remove this dummy line
+    def __init__(self):
+		    while 1:
+		    	re=prime_class.is_prime(raw_input())
+		        if re ==0:
+		             print "numero primo"
+		        else:
+		             print "no es un numero primo"    
+prime_class()
